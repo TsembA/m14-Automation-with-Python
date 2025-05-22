@@ -49,7 +49,7 @@ def check_instance_status():
 
 # There's many diffirent option to schedule task, like every 5 seconds
 schedule.every(5).seconds.do(check_instance_status)
-#Or every monday in certain period of the time 
+# Or every monday in certain period of the time 
 schedule.every().monday.at("12:00").do(check_instance_status)
 
 while True:
