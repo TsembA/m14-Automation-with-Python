@@ -56,7 +56,7 @@ ec2_resource_california.create_tags(
     Tags=[{'Key': 'env', 'Value': 'prod'}]
 )
 
-# Fetch and tag Oregon instances
+# Fetch and tag Oregon instances:
 instance_ids_oregon = []
 reservations_oregon = ec2_client_oregon.describe_instances()['Reservations']
 for res in reservations_oregon:
