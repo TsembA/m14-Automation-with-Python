@@ -1,0 +1,5 @@
+requests==2.31.0
+paramiko==3.5.1
+linode_api4==5.11.0
+schedule==1.2.1
+python-dotenv==1.0.1
